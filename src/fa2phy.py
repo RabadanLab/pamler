@@ -49,7 +49,7 @@ def fasta_parse(path):
 # The libraries we need #
 import sys, os, random, string, re
 # Get the shell arguments #
-fa_path = sys.argv[1]
+fa_path = sys.stdin
 ph_path = sys.argv[2]
 # Check that the path is valid #
 if not os.path.exists(fa_path): raise Exception("No file at %s." % fa_path)

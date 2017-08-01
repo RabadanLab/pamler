@@ -3,8 +3,8 @@ from Bio import SeqIO
 import re
 import sys
 
-infile = sys.argv[1]
-outfile = sys.argv[2]
+infile = sys.stdin
+#outfile = sys.argv[2]
 
 fasta_sequences = SeqIO.parse(open(infile),'fasta')
 sequences = []
@@ -36,8 +36,8 @@ for j in range(len(sequences)):
         sequence = new_seq
     fin_seq.append(sequence)
 
-file = open(outfile, "w")
+#file = open(outfile, "w")
 for i in range(len(fin_seq)):
-    file.write(">" + names[i] + "\n" +fin_seq[i] + "\n")
+    print(">" + names[i] + "\n" +fin_seq[i] + "\n")
 
-file.close()
+#file.close()

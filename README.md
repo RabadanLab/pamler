@@ -22,7 +22,10 @@ Make the following pipeline
     $bash src/ensembl_filter_json.sh CCR5 protein | python src/json2fasta.py
     
     # Alignment using MUSCLE
-    $bash src/ensembl_filter_json.sh CCR5 cdna | python src/json2fasta.py  | muscle -physout tmp.phy # XXX this produces a phylip format that is not compatible with PAML.
+    $bash src/ensembl_filter_json.sh CCR5 cdna | python src/json2fasta.py  | muscle -out tmp.fa # this produces a fasta format that is to be parsed and converted to phylip format that can be handled by PAML.
+ 
+    # Parse Multiple Sequence Alignment Results
+    $python stop_gap.py TPD52.fa TPD52_proc.fa && python fa2phy.py TPD52_proc.fa TPD52.phy
 
     # Generate PAML ctl file
     $bash src/generate_template.ctl.sh <alignment> <tree> <outputfile> > tmp.ctl

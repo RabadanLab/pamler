@@ -39,7 +39,6 @@ for j in range(len(sequences)):
         sequence = new_seq
     fin_seq.append(sequence)
 
-print(str(len(names)) + " " + str(len(fin_seq[0])))
 for i in range(len(fin_seq)):
     print(">" + names[i] + "\n" +fin_seq[i])
 

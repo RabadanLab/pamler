@@ -3,41 +3,25 @@ from Bio import SeqIO
 import re
 import sys
 
-organisms = []
-inter = []
-fasta = []
+infile = sys.argv[1]
 
-fasta_sequences = sys.stdin
-prevLine = ""
-entry = []
-for line in fasta_sequences:
-    names = re.match('>[a-z]+',line)
-    if names:
-        organisms.append(line.strip().split('>')[1])
-    else:
-        if len(prevLine) < len(line):
-            entry = []
-        else:
-            entry.append(line.strip())
-    prevLine = line
-    if not entry:
-        continue
-    inter.append(entry)
-
-for f in inter:
-    fasta.append(''.join(f))
-fasta = list(set(fasta))
+fasta_sequences = SeqIO.parse(open(infile),'fasta')
+sequences = []
+names = []
+for fasta in fasta_sequences:
+    sequences.append(str(fasta.seq))
+    names.append(fasta.id)
 
 gap_pos = []
 fin_seq = []
-for i in range(len(fasta)):
-    if organisms[i] =='homo_sapiens':
-        sequence = fasta[i]
+for i in range(len(sequences)):
+    if names[i] =='homo_sapiens':
+        sequence = sequences[i]
         for m in re.finditer("([-]+)",sequence):
             gap_pos.append(m.start())
             gap_pos.append(m.end())
-for j in range(len(fasta)):
-    sequence=fasta[j][:-3]
+for j in range(len(sequences)):
+    sequence=sequences[j][:-3]
     delete=0
     for idx in range(0,len(gap_pos),2):
         if idx == 0:
@@ -51,7 +35,7 @@ for j in range(len(fasta)):
         sequence = new_seq
     fin_seq.append(sequence)
 
-print(str(len(organisms)) + " " + str(len(fin_seq[0])))
+print(str(len(names)) + " " + str(len(fin_seq[0])))
 for i in range(len(fin_seq)):
-    print(organisms[i] + "\n" +fin_seq[i])
+    print(names[i] + "\n" +fin_seq[i])
 

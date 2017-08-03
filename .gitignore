@@ -5,6 +5,6 @@
 rst
 rst1
 rub
-tmp.ctl
-tmp.fa
-tmp.out
+*.ctl
+*.fa
+*.out

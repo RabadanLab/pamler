@@ -11,7 +11,7 @@ parse_json_rst <- function(path) {
       neb=tmp[["3"]][["NEB"]][["parsed"]] %>%  bind_rows() ,
       beb=tmp[["3"]][["BEB"]][["parsed"]] %>% bind_rows(),
       dnds=tmp[["3"]][["dnds_info"]][["raw"]] %>% 
-        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,number_of_classes))))
+        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["3"]][["NEB"]][["number_of_classes"]])))))
     ),
     "model2"=list(
       model_name=tmp[["4"]][["name"]],
@@ -43,4 +43,5 @@ parse_json_rst <- function(path) {
     
 }
 
-#parse_json_rst("C:/Users/Insight/Dropbox/Columbia/Research/pamler/assets/tmp.json")
+parse_json_rst("C:/Users/Kernyu Park/Google Drive/Columbia/GSAS/Research/17_S/QUEST/json_rst")
+

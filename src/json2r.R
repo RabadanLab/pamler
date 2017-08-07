@@ -43,5 +43,5 @@ parse_json_rst <- function(path) {
     
 }
 
-parse_json_rst("C:/Users/Kernyu Park/Google Drive/Columbia/GSAS/Research/17_S/QUEST/json_rst")
+# parse_json_rst("C:/Users/Kernyu Park/Google Drive/Columbia/GSAS/Research/17_S/QUEST/json_rst")
 

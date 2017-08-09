@@ -6,7 +6,6 @@ for i in data:
     print(">"  + i["type"])
     print(i["seq"])
 
-
 # data is a list of dicts
 
 # write to fasta file

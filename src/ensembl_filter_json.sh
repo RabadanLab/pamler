@@ -42,7 +42,7 @@ else
     else 
         jq -s '.' \
         <(cat ${tempfile} | jq '.data[0].homologies[0] | { type: .source.species, seq: .source.seq, id: .source.id }' ) \
-        <(cat ${tempfile}| jq '.data[0].homologies[] | { dn_ds: .dn_ds, type: .target.species, seq: .target.seq, id: .target.id }')
+        <(cat ${tempfile}| jq '.data[0].homologies[] | { dn_ds: .dn_ds, type: .target.species, seq: .target.seq, id: .target.id, perc_id: .target.perc_id }')
     fi
 fi
 

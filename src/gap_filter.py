@@ -3,8 +3,7 @@ import re ,sys
 import numpy as np
 
 protein = sys.argv[1]
-infile = protein + '.aln'
-fasta_file = open(infile,'r')
+fasta_file = sys.stdin
 
 sequences = []
 names = []

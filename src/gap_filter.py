@@ -3,15 +3,19 @@ import re ,sys
 import numpy as np
 
 protein = sys.argv[1]
+
 fasta_file = sys.stdin
+
+rawfile = protein + '.fa'
+raw_file = open(rawfile,'r')
 
 sequences = []
 names = []
 for line in fasta_file:
-    organism = re.match('>[a-z]+',line)
-    if organism:
-        org = line.strip()
-        names.append(org)
+    organisms = re.match('>[a-z]+',line)
+    if organisms:
+        organism = line.strip()
+        names.append(organism)
     else:
         sequences.append(line.strip())
 
@@ -41,11 +45,22 @@ for j in range(len(sequences)):
         dump_name.append(names[j])
         dump_seq.append(sequence)
 
+org = []
+fasta = []
+for line in raw_file:
+    organism = re.match('>[a-z]+',line)
+    if organism:
+        species = line.strip()
+        org.append(species)
+    else:
+        fasta.append(line.strip())
+
+for k in range(len(org)):
+    if org[k] in fin_name:
+        print(org[k] + '\n' + fasta[k])
+
 outfile = protein + '_dump.txt'
 file = open(outfile, "w")
 for k in range(len(dump_name)):
     file.write(dump_name[k] + '\n' + dump_seq[k] + '\n')
 file.close()
-
-for l in range(len(fin_seq)):
-    print(fin_name[l] + '\n' + fin_seq[l])

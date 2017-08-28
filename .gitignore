@@ -12,3 +12,6 @@ rub
 *.aln
 *.tree
 *.bf
+*.nuc
+messages.log
+lnf

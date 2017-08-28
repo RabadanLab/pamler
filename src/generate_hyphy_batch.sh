@@ -21,5 +21,5 @@ inputRedirect["10"] = "-0.05";
 inputRedirect["11"] = "0.1";
 inputRedirect["12"] = "All";
 inputRedirect["13"] = "/home/parkk93/Columbia/GSAS/Research/17_S/QUEST/${RESULT}";
-ExecuteAFile HYPHY_BASE_DIRECTORY + "res" + DIRECTORY_SEPARATOR + "TemplateBatchFiles" + DIRECTORY_SEPARATOR + "QuickSelectionDetectionMF.bf", inputRedirect);
+ExecuteAFile (HYPHY_BASE_DIRECTORY + "res" + DIRECTORY_SEPARATOR + "TemplateBatchFiles" + DIRECTORY_SEPARATOR + "QuickSelectionDetectionMF.bf", inputRedirect);
 OUTPUT

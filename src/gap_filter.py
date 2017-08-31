@@ -29,7 +29,6 @@ quartile = np.percentile(counts,[25,50,75],interpolation='nearest')
 iqr = (quartile[2]-quartile[0])
 lower = quartile[0]-(1.5*iqr)
 upper = quartile[2]+(1.5*iqr)
-
 fin_name = []
 fin_seq = []
 dump_name = []
@@ -38,7 +37,7 @@ dump_seq = []
 for j in range(len(sequences)):
     sequence = sequences[j]
     gapcount = sequence.count('-')
-    if gapcount < upper and gapcount > lower:
+    if gapcount <= upper and gapcount >= lower:
         fin_name.append(names[j])
         fin_seq.append(sequence)
     else:
@@ -61,6 +60,6 @@ for k in range(len(org)):
 
 outfile = protein + '_dump.txt'
 file = open(outfile, "w")
-for k in range(len(dump_name)):
-    file.write(dump_name[k] + '\n' + dump_seq[k] + '\n')
+for l in range(len(dump_name)):
+    file.write(dump_name[l] + '\n' + dump_seq[l] + '\n')
 file.close()

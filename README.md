@@ -21,6 +21,9 @@ Make the following pipeline
     # Download CCR5 protein using ENSMBL API
     $bash src/ensembl_filter_json.sh CCR5 protein | python src/json2fasta.py
 
+    # Generate a prune tree
+    $Rscript src/prune_tree.R assets/primates_input_JA.tre FASTA OUTPUT_TREE 
+
     # Alignment using MUSCLE
     $bash src/ensembl_filter_json.sh CCR5 cdna | python src/json2fasta.py > CCR5.fa && muscle -in CCR5.fa # this produces a fasta format that is to be parsed and converted to phylip format that can be handled by PAML.
 

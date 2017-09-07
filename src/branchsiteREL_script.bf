@@ -12,7 +12,7 @@ inputRedirect["03"] = "No";
 inputRedirect["06"] = "All";
 inputRedirect["07"] = "";
 for ( _fileLine = 0; _fileLine < Columns ( _inDirectoryPaths ); _fileLine = _fileLine + 1 ) {
-	print ("_inDirectoryPaths[ _fileLine ]");
+	fprintf (stdout, _inDirectoryPaths[ _fileLine ]);
 	inputRedirect [ "04" ]	= _inDirectoryPaths[ _fileLine ];
 	inputRedirect [ "05" ]	= _inDirectoryPaths2[ _fileLine ];
 	ExecuteAFile ( fileToExe, inputRedirect );

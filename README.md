@@ -36,6 +36,17 @@ Make the following pipeline
     # Generate PAML ctl file
     $bash src/generate_template.ctl.sh <alignment> <tree> <outputfile> > tmp.ctl
 
+# Logs
+
+## 2017/09/20: Alignment & Estimating the tree brach length
+
+    # Generate interleaved phylip & estimate branch length
+    Rscript src/fa2phyinter.R CCR5 data/fasta data/phylip && phyml -i data/phylip/CCR5.phy -d nt -b 0 -m GTR -c 4 -a 1 -u  data/pruned_tree/CCR5.tree -o lr
+    # Generate interleaved phylip & estimate branch length FOR All genes
+    ls data/fasta/*fa | parallel --dry-run "Rscript src/fa2phyinter.R {/.} data/fasta data/phylip && phyml -i data/phylip/{/.}.phy -d nt -b 0 -m GTR -c 4 -a 1 -u  data/pruned_tree/{/.}.tree -o lr" | bash
+
+
+
 
 
 # TODO

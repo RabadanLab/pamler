@@ -1,0 +1,1 @@
+(((homo_sapiens:0.02141466,pongo_abelii:0.01408509):0.00000019,nomascus_leucogenys:0.06059956):0.08278619,macaca_mulatta:0.08278619);

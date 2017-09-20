@@ -1,0 +1,1 @@
+((((((gorilla_gorilla:0.00302843,(homo_sapiens:0.00220240,pan_troglodytes:0.00636575):0.00000001):0.01170685,pongo_abelii:0.01392421):0.00171172,nomascus_leucogenys:0.01395604):0.00766928,(papio_anubis:0.00421009,chlorocebus_sabaeus:0.00501180):0.01602414):0.06275930,carlito_syrichta:0.08118820):0.06487091,microcebus_murinus:0.06487091);

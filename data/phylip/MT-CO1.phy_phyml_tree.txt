@@ -1,0 +1,1 @@
+(((((gorilla_gorilla:0.07182213,(homo_sapiens:0.05317214,pan_troglodytes:0.05065537):0.01594498):0.04003378,pongo_abelii:0.09955982):0.06858057,((macaca_mulatta:0.08601150,papio_anubis:0.12541798):0.01501880,chlorocebus_sabaeus:0.10287400):0.07425896):0.13857905,carlito_syrichta:0.14233821):0.09558363,microcebus_murinus:0.09558363);

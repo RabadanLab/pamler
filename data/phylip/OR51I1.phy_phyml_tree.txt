@@ -1,0 +1,1 @@
+(((((homo_sapiens:0.00540325,pan_troglodytes:0.01322403):0.00451817,pongo_abelii:0.01171018):0.00000007,nomascus_leucogenys:0.01531140):0.01477417,callithrix_jacchus:0.04248102):0.06054190,otolemur_garnettii:0.06054190);

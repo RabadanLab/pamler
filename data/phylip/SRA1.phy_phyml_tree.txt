@@ -1,0 +1,1 @@
+(((((((homo_sapiens:0.00284569,pan_troglodytes:0.00142116):0.00000008,pongo_abelii:0.01440236):0.00414966,nomascus_leucogenys:0.00588723):0.00435686,((macaca_mulatta:0.00142440,papio_anubis:0.00430777):0.00143057,chlorocebus_sabaeus:0.00142600):0.01161731):0.00273256,callithrix_jacchus:0.02863691):0.02252163,carlito_syrichta:0.10505590):0.02735367,otolemur_garnettii:0.02735367);

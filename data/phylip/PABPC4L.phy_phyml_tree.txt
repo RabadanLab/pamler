@@ -1,0 +1,1 @@
+((homo_sapiens:0.00996647,callithrix_jacchus:0.03379040):0.04720647,otolemur_garnettii:0.04720647);

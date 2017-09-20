@@ -1,0 +1,1 @@
+((((((gorilla_gorilla:0.00426241,homo_sapiens:0.00304001):0.00483604,nomascus_leucogenys:0.00546330):0.00150917,(papio_anubis:0.00577593,chlorocebus_sabaeus:0.00234315):0.01526860):0.00571011,callithrix_jacchus:0.03582637):0.03567877,carlito_syrichta:0.05293522):0.00393444,(microcebus_murinus:0.03636579,otolemur_garnettii:0.05734490):0.00393444);

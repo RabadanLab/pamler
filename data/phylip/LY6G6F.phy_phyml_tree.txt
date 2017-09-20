@@ -1,0 +1,1 @@
+(((homo_sapiens:0.01347760,papio_anubis:0.01445933):0.06758987,carlito_syrichta:0.09838578):0.00000071,(microcebus_murinus:0.05588662,otolemur_garnettii:0.12496125):0.00000071);

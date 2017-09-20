@@ -1,0 +1,1 @@
+((((homo_sapiens:0.00149713,pan_troglodytes:0.00206334):0.00305464,pongo_abelii:0.00826420):0.00565789,papio_anubis:0.01501440):0.06393240,carlito_syrichta:0.06393240);

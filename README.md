@@ -45,9 +45,14 @@ Make the following pipeline
     # Generate interleaved phylip & estimate branch length FOR All genes
     ls data/fasta/*fa | parallel --dry-run "Rscript src/fa2phyinter.R {/.} data/fasta data/phylip && phyml -i data/phylip/{/.}.phy -d nt -b 0 -m GTR -c 4 -a 1 -u  data/pruned_tree/{/.}.tree -o lr" | bash
 
+## 2017/09/21: Translation aware alignment
+
+$prank -d=data/fasta/CCR5.fa -o=output_translated -translate -F
 
 
+# Exceptions
 
+* 2017/09/21 Moved the gene `ABCA13` from `data/fasta/`, `data/fasta-aligned/`, and `data/pruned_tree/` to data/exceptions. Will not process this gene because it contains the sequence that's long and it fails in muscle step which is necessary for branch length estimation
 
 # TODO
 

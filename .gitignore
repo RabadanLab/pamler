@@ -6,7 +6,6 @@ rst
 rst1
 rub
 *.ctl
-*.fa
 *.out
 *_dump.txt
 *.aln

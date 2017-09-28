@@ -1,0 +1,16 @@
+missing-genes-20170928.tx: Genes that are missing in data/unrooted_phyml/
+
+ABCA13.aligned.fa.best.nuc.fas
+ABCA13.aligned.fa.best.pep.fas
+ABCA13.fa
+ABCA13.tree
+CCL4L1.aligned.fa.best.nuc.fas
+FREM1.aligned.fa.best.nuc.fas
+FREM1.phy_phyml_tree.txt
+ITGAD.aligned.fa.best.nuc.fas
+KBTBD8.aligned.fa.best.nuc.fas
+KLRF1.aligned.fa.best.nuc.fas
+OR2M2.phy_phyml_tree.txt
+OR51Q1.phy_phyml_tree.txt
+empty_genes.7z
+

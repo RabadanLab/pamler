@@ -1,11 +1,12 @@
-fasta: fasta files obtained from ENSEMBL
+fasta: fasta files obtained from ENSEMBL. Also contains <GENE>.gapfiltered.fa, which have been generated using PRANK alignment and src/gap_filter.py
+fasta-aligned: fasta files aligned using prank
+pruned_tree: pruned tree for each genes from ../assets/primates_input_JA.tre
 fasta.index: unique fasta names in `fasta` directory
 phylip: phyml that was run on fasta in `fasta` directory
-fasta-aligned: fasta files aligned using prank
 fasta-gap_removed-aligned: fasta files with gap-producing-sequences removed
 interim: interim results before the final table
-pruned_tree: pruned tree for each genes from ../assets/primates_input_JA.tre
 exceptions: exceptions
 complete_list_selected_genes_hyphy.txt: absREL result from Juan
 descriptions.txt: this description file
 unrooted_phyml.7z: unrooted tree by Juan
+unrooted_phyml: Unrooted tree from Juan( generated using phylip/*phyml)

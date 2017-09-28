@@ -1,0 +1,22 @@
+fasta_homo_puller.sh: take fasta from standard input and pulls homo sapiense object to the top
+fastajoinlines: make fasta seq 1 line
+descriptions.txt: this description file
+fa2phy.R : fasta to phylip converter(sequential phylip)
+fa2phy.py: fasta to phylip. XXX what type? sequential or interleaved?
+ensembl_filter_json.sh: extract relevant features from ENSEMBL json
+json2fasta.py: Parses ENSMEBL JSON file and spits out fasta file
+json2r.R : imports a function that takes JSON and spits out R list
+prune_tree.R: Prune the tree based on the given fasta .$Rscript src/prune_tree.R <REF_TREE> <FASTA> <PRUNED OUTPUT TREE>
+rst2json.pl: rst 2 json converter
+run_paml.sh: PAML runner. $bash src/run_paml.sh GENE_NAME. Assumes outputdirecotry as OUTPUTDIR=data/interim/paml_results/${GENE_NAME}
+gap_filter.py: remove gappy sequences from aligned fasta file
+
+codeml-possite-extractor.sh
+codeml-process.sh
+
+fa2phyinter.R
+fasta_input_hyphy.fa
+generate_template.ctl.sh
+stop_gap.py: 
+branchsiteREL_script.bf:
+generate_hyphy_batch.sh:

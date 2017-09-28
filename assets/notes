@@ -1,0 +1,1 @@
+cat Selected_hyphy_out_of_2448_genes.txt | awk1p | grep -v homo_sapiens > Selected_hyphy_out_of_2448_genes.gene.txt

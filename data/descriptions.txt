@@ -1,0 +1,10 @@
+fasta: fasta files obtained from ENSEMBL
+fasta.index: unique fasta names in `fasta` directory
+phylip: phyml that was run on fasta in `fasta` directory
+fasta-aligned: fasta files aligned using prank
+fasta-gap_removed-aligned: fasta files with gap-producing-sequences removed
+interim: interim results before the final table
+pruned_tree: pruned tree for each genes from ../assets/primates_input_JA.tre
+Selected_hyphy_out_of_2448_genes.txt: 
+exceptions: exceptions
+

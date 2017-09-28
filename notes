@@ -1,0 +1,17 @@
+ls data/fasta/*fa | parallel --dry-run "Rscript src/fa2phyinter.R {/.} data/fasta data/phylip && phyml -i data/phylip/{/.}.phy -d nt -b 0 -m GTR -c 4 -a 1 -u  data/pruned_tree/{/.}.tree -o lr" | bash
+
+
+   ===> bash assets/H0neutrality.sh data/phylip/A1CF.phy data/phylip/A1CF.phy_phyml_tree.txt data/interim/paml_results/A1CF/h0.res > data/interim/paml_results/A1CF/h0.ctl
+   [41][Mon Sep 25,03:33 PM] akl2140@c2b2rrmd10: ~/S/pamler]  (master)
+      ===> bash assets/HAselection.sh data/phylip/A1CF.phy data/phylip/A1CF.phy_phyml_tree.txt data/interim/paml_results/A1CF/h1.res > data/interim/paml_results/A1CF/h1.ctl
+
+# Running PAML
+cat assets/Selected_hyphy_out_of_2448_genes.gene.txt | xargs -I{} echo "bash src/run_paml.sh {}" | bash
+
+# Process PAML reslts
+find trash/20170926-paml_results_gorilla -maxdepth 1 -type d | cut -f3 -d/ | xargs -I{} echo "cat trash/20170926-paml_results_gorilla/{}/h1.res | src/codeml-possite-extractor.sh > trash/20170926-paml_results_gorilla/{}/h1.psite.fwf" | bash
+
+# Process gap filtering
+cat data/fasta.index | xargs -I{} echo "cat data/fasta/{}.fa | python src/gap_filter.py data/fasta/{} > data/fasta/{}.gapfiltered.fa" | bash
+
+

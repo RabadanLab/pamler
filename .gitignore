@@ -9,10 +9,11 @@ rub
 *.out
 *_dump.txt
 *.aln
-*.tree
 *.bf
 *.nuc
 messages.log
 lnf
 trash
 *.swp
+data/interim/paml_results/
+

@@ -1,0 +1,9 @@
+assets/ : contains the static file 
+data/ : data directory. raw, interim, 
+output/ : contains the output tables/figures
+src/ : contains scripts
+tests/ : contains testing related files
+Makefile : for reproducible research
+notes : notes for Albert
+README.md : Various descriptions of how things were run
+descriptions.txt : this description file

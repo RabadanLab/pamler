@@ -14,4 +14,6 @@ find trash/20170926-paml_results_gorilla -maxdepth 1 -type d | cut -f3 -d/ | xar
 # Process gap filtering
 cat data/fasta.index | xargs -I{} echo "cat data/fasta/{}.fa | python src/gap_filter.py data/fasta/{} > data/fasta/{}.gapfiltered.fa" | bash
 
+# Prunning tree 2017/09/28
+Rscript src/prune_tree.R data/unrooted_phyml/TGFBR2.phy_phyml_tree.txtunrooted.tree data/fasta/TGFBR2.gapfiltered.fa data/pruned_tree_unrooted/TGFBR2.pruned.unrooted.blen.tree
 

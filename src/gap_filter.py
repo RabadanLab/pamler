@@ -11,7 +11,7 @@ raw_file = open(rawfile,'r')
 
 sequences = []
 names = []
-for line in fastafile:
+for line in fasta_file:
     organisms = re.match('>[a-z]+',line)
     if organisms:
         organism = re.sub(r'(\s{1})(\d+)(\s{1})(bp)','', line).strip()

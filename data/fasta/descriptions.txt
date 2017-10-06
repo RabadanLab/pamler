@@ -1,0 +1,6 @@
+1_raw: raw fasta file
+2_aligned-raw: aligned raw fasta file using prank
+3_trimmed: TRIMAL
+4_unaligned-species-filtered: Species filtered
+5_aligned-species-filtered: Aligned 4_unaligned-species-filtered using prank
+descriptions.txt

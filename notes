@@ -17,3 +17,5 @@ cat data/fasta.index | xargs -I{} echo "cat data/fasta/{}.fa | python src/gap_fi
 # Prunning tree 2017/09/28
 Rscript src/prune_tree.R data/unrooted_phyml/TGFBR2.phy_phyml_tree.txtunrooted.tree data/fasta/TGFBR2.gapfiltered.fa data/pruned_tree_unrooted/TGFBR2.pruned.unrooted.blen.tree
 
+cat <(bash src/fasta-list-from-dir.sh -d '.' data/fasta/1_raw/ | perl -lane 'print $_."\t"."interact"') <(cat assets/human_prots_withModels_mapped_noIG_maxLR_lessthan20.txt | cut -f3 | sort | uniq | perl -lane 'print $_."\t"."non-interact"') > assets/protein-type.txt
+

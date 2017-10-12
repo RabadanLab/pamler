@@ -6052,7 +6052,6 @@ UNC119B	non-interact
 UNC93A	non-interact
 UNC93B1	non-interact
 UNKL	non-interact
-UNQ5830/PRO19650/PRO19816	non-interact
 UPRT	non-interact
 UQCRQ	non-interact
 URGCP	non-interact

@@ -65,6 +65,18 @@ ls data/fasta/*fa | parallel --dry-run "Rscript src/fa2phyinter.R {/.} data/fast
 ls data/fasta/* | grep --file=20170921-list-genes-that-with-no-alignment.txt | parallel "/Users/akl2140/bin/prank/bin/prank -d={} -o=data/fasta-aligned/{/.}.aligned.fa -translate -F"
 ```
 
+## How to extract P values from codeml output (MLC)
+
+```
+# Rscript src/codeml-process-pvalue.R <NULL MODEL MLC FILE> <ALTERNATIVE MODEL MLC FILE> 
+Rscript src/codeml-process-pvalue.R data/paml_results/A1BG_H0.mlc data/paml_results/A1BG_HA.mlc
+
+```
+## How to extract site-class table from codeml output?
+
+```
+Rscript src/codeml-process-table-site-class.R <MLC FILE> # will produce csv output
+```
 
 # Exceptions
 

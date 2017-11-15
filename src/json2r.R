@@ -1,5 +1,5 @@
-library(tidyverse)
-library(jsonlite)
+suppressWarnings(suppressPackageStartupMessages(library(tidyverse)))
+suppressWarnings(suppressPackageStartupMessages(library(jsonlite)))
 
 parse_json_rst <- function(path) {
   tmp <- jsonlite::read_json(path)

@@ -1,42 +1,44 @@
 suppressWarnings(suppressPackageStartupMessages(library(tidyverse)))
 suppressWarnings(suppressPackageStartupMessages(library(jsonlite)))
 
+parse_neb__ <- function(neb) {
+  neb %>%  
+    bind_rows() %>% 
+    select(pos, aa, class, w_bar, everything()) %>% 
+    mutate_at(as.numeric, .vars = 4:ncol(.))
+}
 parse_json_rst <- function(path) {
   tmp <- jsonlite::read_json(path)
   
+  names_of_fields <- map(tmp, "name")
+  MODEL7_POS <- grep("7: beta", names_of_fields)
+  MODEL8_POS <- grep("^8: beta", names_of_fields)
   res <- list(
-    "model1"=list(
-      model_name=tmp[["3"]][["name"]],
-      lnl=tmp[["3"]][["NEB"]][["lnL"]],
-      neb=tmp[["3"]][["NEB"]][["parsed"]] %>%  bind_rows() ,
-      beb=tmp[["3"]][["BEB"]][["parsed"]] %>% bind_rows(),
-      dnds=tmp[["3"]][["dnds_info"]][["raw"]] %>% 
-        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["3"]][["NEB"]][["number_of_classes"]])))))
-    ),
-    "model2"=list(
-      model_name=tmp[["4"]][["name"]],
-      lnl=tmp[["4"]][["NEB"]][["lnL"]],
-      neb=tmp[["4"]][["NEB"]][["parsed"]] %>%  bind_rows() %>% select(pos, aa, class, w_bar, everything()),
-      beb=tmp[["4"]][["BEB"]][["parsed"]] %>% bind_rows() %>% select(pos, aa, class, w_bar, sd, everything()),
-      dnds=tmp[["4"]][["dnds_info"]][["raw"]] %>% 
-        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["4"]][["NEB"]][["number_of_classes"]])))))
-    ), 
+    # "model1"=list(
+    #   model_name=tmp[["3"]][["name"]],
+    #   lnl=tmp[["3"]][["NEB"]][["lnL"]],
+    #   neb=tmp[["3"]][["NEB"]][["parsed"]] %>%  bind_rows() ,
+    #   beb=tmp[["3"]][["BEB"]][["parsed"]] %>% bind_rows(),
+    #   dnds=tmp[["3"]][["dnds_info"]][["raw"]] %>% 
+    #     read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["3"]][["NEB"]][["number_of_classes"]])))))
+    # ),
     "model7"=list(
-      model_name=tmp[["5"]][["name"]],
-      lnl=tmp[["5"]][["NEB"]][["lnL"]],
-      neb=tmp[["5"]][["NEB"]][["parsed"]] %>%  bind_rows() %>% select(pos, aa, class, w_bar, everything()),
-      beb=tmp[["5"]][["BEB"]][["parsed"]] %>% bind_rows(),
-      dnds=tmp[["5"]][["dnds_info"]][["raw"]] %>% 
-        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["5"]][["NEB"]][["number_of_classes"]])))))
-    ),
-    "model8"= list(
-      model_name=tmp[["6"]][["name"]],
-      lnl=tmp[["6"]][["NEB"]][["lnL"]],
-      neb=tmp[["6"]][["NEB"]][["parsed"]] %>%  bind_rows() %>% select(pos, aa, class, w_bar, everything()),
-      beb=tmp[["6"]][["BEB"]][["parsed"]] %>% bind_rows() %>% select(pos, aa, class, w_bar, sd, everything()),
-      dnds=tmp[["6"]][["dnds_info"]][["raw"]] %>% 
-        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[["6"]][["NEB"]][["number_of_classes"]])))))
-    )
+      model_name=tmp[[MODEL7_POS]][["name"]],
+      lnl=tmp[[MODEL7_POS]][["NEB"]][["lnL"]],
+      neb=parse_neb__(tmp[[MODEL7_POS]][["NEB"]][["parsed"]]) ,
+      #beb=tmp[[MODEL7_POS]][["BEB"]][["parsed"]] %>% bind_rows() %>% select(pos, aa, class, w_bar, sd, everything()),
+      dnds=tmp[[MODEL7_POS]][["dnds_info"]][["raw"]] %>% 
+        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[[MODEL7_POS]][["NEB"]][["number_of_classes"]])))))
+    ), 
+    "model8"=list(
+      model_name=tmp[[MODEL8_POS]][["name"]],
+      lnl=tmp[[MODEL8_POS]][["NEB"]][["lnL"]],
+      neb=parse_neb__(tmp[[MODEL8_POS]][["NEB"]][["parsed"]]), 
+      beb=parse_neb__(tmp[[MODEL8_POS]][["BEB"]][["parsed"]]),
+      beb_pos_sel=tmp[[MODEL8_POS]][["BEB"]][["POST_SELECTED"]] %>% bind_rows(),
+      dnds=tmp[[MODEL8_POS]][["dnds_info"]][["raw"]] %>% 
+        read_table(skip=1, col_names = c("p1", paste0("prob", seq(1,as.numeric(tmp[[MODEL8_POS]][["NEB"]][["number_of_classes"]])))))
+    ) 
   )
   
   res

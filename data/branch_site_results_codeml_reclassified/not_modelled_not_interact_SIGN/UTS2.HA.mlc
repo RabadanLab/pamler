@@ -1,0 +1,285 @@
+     10    513
+
+macaca_mulatta                  --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ATG TAT AAG CTG GCC TCC TGC TGT TTG CTT TTC ATA GGA TTC TTA AAT CCT CTC TTC TCT CTT CCT CTC CTT GAC TCC --- --- GGG GAA GTA TCC CTT CAA CTC TCA GCA CCT CAT GAA GAT GCG CCG TTA ACT TCG GAG GAG CTA GAA AGA GCT TCT CTT CTG CAG ATA CTG CCA GAG ATG CTG CTG GGT GCA GAA AGA GGG GAT AGT CTC AGG AAA GCA GAC TCG AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- GAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ATC AGG AAA CCA TAT AAG AAA CAG AGA AGA AAG CTG AGG CAA GAT TTA AGA --- --- --- --- --- --- TTG TGG AAG AGC CTG GCT TAC AAA TTT TTA AAA ACT --- --- --- --- --- --- --- --- --- --- GTG 
+gorilla_gorilla                 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ATG TAT AAG CTG GCC TCC TGC TGT TTG CTT TTC ATA GGA TTC TTA AAT CCT CTC TTA TCT CTT CCT CTC CTT GAC TCC --- --- AGG GAA ATA TCC TTC CAA CTC TCA GCA CCT CAT GAA GAT GCG CGC TTA ACT CCG GAG GAG CTA GAA AGA GCT TCC CTT CTA CAG ATA CTG CCA GAG ATG CTG --- GGT GCA GAA AGA GGG GAT GTT CTC AGG AAA GCA GAC TCA AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ATC TGG AAA CCA TAC AAG AAA CGG --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- GTG 
+callithrix_jacchus              ATG GAA ACC AAC GTA TTT CAT GTC ATA CTC TGC GTC ACT TCT GCT TGG ACT CGT AAA TCC ACA TCT CTC TGC TTT --- --- --- GGT CAC TTC AAC TCG TAT CCA ATC CTT TCT TTA ATT CAT TAT TTA TTG CTG CAA GTA TCT TTT TCA CTC GTA GCA CCT GAT GAA GAT GTG CCA TTA TCT CTG GAG GAA CTA GGA AGA GCT TCC CTT CTG CAG ATA TTG CCA GAG GTG --- CTG GGT GTG GAA AGA GGG GAT GTT CTC AGG AAA GCA GAC TCA AGA ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG GGA AAG TTT CAG GCT TCC TCT GGA CAA GAT CTT --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ACC AGG AAA CCA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GAG ACT CCT --- GAT TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGT --- --- --- --- --- --- --- --- --- --- GTC 
+pongo_abelii                    ATG GAA ACC AAC GTA TTT CAT CTT ATG CTC TGC GTC ACT TCT GCT CGG ACT CAT AAA TCC ACG TCT CTT TGC TTT --- --- --- GGC CAC TTC AAC TCA TAT CCA AGC CTT TTT TTA ATT CAT GAT TTA TTG CTG GAA ATA TCC TTT CAA CTC TCA GCA CCT CAT GAA GAT GCG CGC TTA ACT CCG GAG GAG CTA GAA AGA GCT TCC CTT CTA CAG ATA CTG CCA GAG ATG --- CTG GGT GCA GAA AGA GGG GAT ATT CTC AGG AAA GCA GAC TCG AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ACC TGG AAA CCA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GAG ACT CCT --- GAT TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGT --- --- --- --- --- --- --- --- --- --- GTC 
+carlito_syrichta                --- --- GTG GAC ATA TTT CAT GTC ATG CTT TGC GTC ACT TCT GCT GGG ACT CAT AAA TCC TCG TCT CTC TGC CTT --- --- --- GGT CAT TTC AAC TCG TAC CTG ACC CTT CCT TTA ACT CAT GAT TTA TTG CTG GAA CTG GCC CTT CAG CTC TCA GCC CCT GAT GAG GAC GCG AGG CTG GGG CTG GAG GAA CTG GAA AGA ACT TCC CTT CTG CAG ACG CTG CGA GAG ATG --- CTG GGT GCA GAG AGG GGC ATC ATT CTC GGG AGA GCA GAT CCT AGT GCC AAC ATT TTT AAC CCA AGA AGA AAT GTG AGA AAG TTT CAG GCT CTC TCT GGA CAA GAT CCT --- AGC ATT TTA CTG AGT CAC CTT TTG ACC GGA ACC AGG AAA CAA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GGG ACT CCC TCT GAA TGC TTC TGG AAA --- --- --- --- --- --- --- TAT TGT --- --- --- --- --- --- --- --- --- --- GTC 
+nomascus_leucogenys             ATG GAA ACC AAC GTA TTT CAT CTG ATG CTC TGC GTC ACT TCT GCT CGG ACT CAT AAA TCC ACG TCT CTT TGC TTT --- --- --- GGC CAC TTC AAC TCA TAT CCA AGC CTT TCT TTA ATT CAT GAT TTA TTG CTG GAA ATA TCC TTT CAA CTC TCA GCA CCT CAT GAA GAA GCG CGC TTA ACT CCG GAG GAG GTA GAA AGA CCT TCC CTT CTA CAG ATA CTG CCA GAG ATG --- CTG GGT GCA GAA AGA AGG GAT ATT CTC AGG AAC GCA GAC TCG AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TCG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCC --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ACC TGG AAA CCA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GAG ACT CCT --- GAT TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGT --- --- --- --- --- --- --- --- --- --- GTC 
+homo_sapiens                    ATG GAA ACC AAC GTA TTT CAT CTT ATG CTC TGC GTC ACT TCT GCT CGG ACT CAT AAA TCC ACG TCT CTT TGC TTT --- --- --- GGC CAC TTC AAC TCA TAT CCA AGC CTT CCT TTA ATT CAT GAT TTA TTG CTG GAA ATA TCC TTT CAA CTC TCA GCA CCT CAT GAA GAC GCG CGC TTA ACT CCG GAG GAG CTA GAA AGA GCT TCC CTT CTA CAG ATA CTG CCA GAG ATG --- CTG GGT GCA GAA AGA GGG GAT ATT CTC AGG AAA GCA GAC TCA AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ATC TGG AAA CCA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GAG ACT CCT --- GAT TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGT --- --- --- --- --- --- --- --- --- --- GTC 
+papio_anubis                    ATG GAT CCC AAC GTA TTT CAT CTT ATG CTC TGC GTC ACT TCT GCT CGG ACT CAT AAA TCC ACG TCT CTT TGC TTT --- --- --- GGC CAC TTC AAC TCA TAT CCA ATC CTT TCT TTA ATT CAT GAT TTA TTG CTA AGT CTC TGT TTT TAC TCT GTA GCA CCT CAT GAA GAT GCG CCG TTA ACT TCG GAG GAG CTA GAA AGA GCT TCT CTT CTG CAG ATA CTG CCA GAG ATG CTG CTG GGT GCA GAA AGA GGG GAT AGT CTC AGG AAA GCA GAC TCG AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- GAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ATC AGG AAA CCA TAT AAG AAA --- --- --- --- --- --- --- --- --- CGT GAG ACT CCT --- GAT TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGT --- --- --- --- --- --- --- --- --- --- GTC 
+pan_troglodytes                 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ATG TAT AAG CTG GCC TCC TGC TGT TTG CTT TTC ATA GGA TTC TTA AAT CCA CTC TTA TCC CTT CCT CTC CTT GAC TCC --- --- AGG GAA ATA TCC TTT CAA CTC TCA GCA CCT CAT GAA GAT GCG CGC TTA ACT CCG GAG GAG CTA GAA AGA GCT TCC CTT CTA CAG ATA CTG CCA GAG ATG CTG --- GGT GCA GAA AGA GGG GAT ATT CTC AGG AAA GCA GAC TCG AGT ACC AAC ATT TTT AAC CCA AGA GGA AAT TTG AGA AAG TTT CAG GAT TTC TCT GGA CAA GAT CCT --- AAC ATT TTA CTG AGT CAT CTT TTG GCC AGA ATC TGG AAA CCA TAC AAG AAA CAG AGA AGA AAG CTG AGG CGA GAT TTA AGA --- --- --- --- --- --- TTG TGG AAG --- --- --- --- --- --- --- AAA GAG CCT GGC TTA CGA ATT TTT AAC TAT GTG TGG GTG 
+microcebus_murinus              AAG GAA ACC AAC ATA TTT CAT GCC ACG CTC TTC --- --- --- --- --- --- CAC GTC TCT CTG CCT TGG CTA CTC --- --- --- --- --- --- AGC TCA TAT CTG ACC CTT TTC CTA ACT CAT GAT TTA TTG CTG TTA ATA TCC CTT CAG CTC TCA GGT --- --- --- --- --- --- --- --- --- --- AAG ATG GAT TTC TTT TCC CCC TTA --- TCG CTG CCG GAG ACC --- GTG GCG GCC GGA AGA GGC GAC GTT CCG AGG GAA ACA GGT CCT ACT ACA AAC ATT TTT AAC CCA AGA GGA AAT CTG AGA AAG TTT CAG GCT TTC TCT GGA CAA GAC CCA TTT AAT ATT CTC CTG AGT CAT CTT TTG GCT GGA ACC AGG AAA GAA TAC AAG AAA --- --- --- --- --- --- --- --- --- CGT GGG ACT CCT --- GAA TGC TTC TGG AAA --- --- --- --- --- --- --- TAC TGC --- --- --- --- --- --- --- --- --- --- GTC 
+
+
+
+Printing out site pattern counts
+
+
+        10        492  P
+
+macaca_mulatta                   --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- AAA AAA AAA AAA AAC AAG AAG AAG AAG AAT AAT ACC ACT ACT AGA AGA AGA AGA AGA AGA AGA AGC AGG AGG AGG AGT AGT AGT ATA ATA ATC ATG ATG ATT CAA CAA CAA CAG CAG CAG CAT CAT CCA CCA CCA CCG CCT CCT CCT CCT CTA CTC CTC CTC CTC CTG CTG CTG CTG CTG CTG CTG CTG CTT CTT CTT CTT CTT GAA GAA GAA GAA GAC GAC GAC GAG GAG GAG GAT GAT GAT GAT GAT GCA GCA GCA GCC GCC GCG GCT GCT GGA GGA GGA GGG GGG GGT GTA GTG TAC TAT TAT TCA TCC TCC TCC TCG TCG TCT TCT TCT TGC TGG TGT TTA TTA TTA TTA TTA TTC TTC TTC TTC TTG TTG TTG TTG TTT TTT
+gorilla_gorilla                  --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- AAA AAA AAC --- --- AAG AAG AAT AAT ACC --- ACT --- --- AGA AGA AGA AGA AGA --- --- AGG TGG AGT AGT GTT ATA ATA ATC ATG ATG ATT --- CAA CAA CAG CAG CGG CAT CAT CCA CCA CCA CGC CCT CCT CCT CCT CTA CTC CTC CTC CTC --- --- --- CTA CTG CTG CTG CTG CTT CTT CTT CTT TTC GAA GAA GAA GAA AAC GAC GAC GAG GAG GAG --- GAT GAT GAT GAT GCA GCA GCA GCC GCC GCG --- GCT GGA GGA GGA AGG GGG GGT ATA GTG --- TAC TAT TCA TCC TCC TCC CCG TCA TCC TCT TCT TGC --- TGT --- --- TTA TTA TTA TTA TTC TTC TTC --- TTG TTG TTG --- TTT
+callithrix_jacchus               --- --- --- --- --- --- --- --- --- --- --- --- AAC ACC ACT ACT ATA ATG CAT CCT CTC GAA GAG GAT GCT GTA GTC GTC TCT TGC TGC TGG TTA TTG TTT --- TAC AAA AAA AAC --- AAA AAA AAG AAC AAT ACC TGT TCT --- CGT AGA AGA AGA AGA GGA --- --- AGG AGG AGA AGT GTT --- ATA ACC ACT GTG ATT --- CAA TCA CAG CAG --- CAT GAT CCA CCA CCA CCA CCT CTT TCG TCT CTA CTC CTC TAT TTA --- --- CTG CTG --- CTG TCC TTG --- ATT CTT CTT TTT CAA GAA GAA GGA AAC CAT GAC GAA GAG GAG --- GAT GAT GAT GCT GCA GCA GTG ACA GCC GTG --- GCT GGA GGA GGT CTG GGG GGT GTA GTC --- TAC CGT GTA TAT TCT TCT CTG TCA TCC ATC TCT CTC TGG TGC --- --- TTA TTA TTC CCA --- CAC TCC TTC TTG TTG TTT --- TTT
+pongo_abelii                     --- --- --- --- --- --- --- --- --- --- --- --- AAC ACC ACT ACT ATG ATG CAT CCT CTC GAA GAG GAT GCT GTA CTT GTC TCT TGC TGC CGG TTA TTG TTT --- TAC AAA AAA AAC --- AAA AAA AAG AAC AAT ACC TGT ACT --- CGT AGA AGA AGA AGA AGA --- --- AGG TGG AGT AGT ATT --- ATA ACC ACT ATG ATT --- CAA CAA CAG CAG --- CAT CAT CCA CCA CCA CGC CCT CCT TCA TTT CTA CTC CTC TAT TTA --- --- CTG CTA --- CTG TCC CTG --- ATT CTT CTT TTT GAA GAA GAA GAA AAC CAT GAC GAG GAG GAG --- GAT GAT GAT GAT GCA GCA GCA ACG GCC GCG --- GCT GGA GGA GGC CTG GGG GGT ATA GTC --- TAC CAT TCA GAT TCC TCT CCG TCG TCC AGC TCT CTT TGG TGC --- --- TTA TTA TTC CCA --- CAC TTC TTC TTG TTG TTT --- TTT
+carlito_syrichta                 --- --- --- --- --- --- --- --- --- --- --- TCT GAC GTG ACT ACT ATG --- CAT CCC CTT --- GGG GAA GCT ATA GTC GTC TCT TGC TGC GGG TTA TTG TTT --- TAT AAA AGA AAC --- AAA AAA AAG AAC AAT GCC TGT GGG --- CGT AGA AGA AGG GGA AGA --- --- GGG AGG AGT AGT ATT --- ACG ACC ACT ATG ATT --- CAA CAG CAG CAG --- CAC GAT CAA CCA CGA AGG CCT CCT TCG CCT CTG CTC CTC TAC TTA --- --- CTG CTG --- CTG TCC CTG --- ACT CTT CTT CTT GAA GAG GAG GAA AGC CAT GAT GAA GAG GAG --- ATC GAC GAT GCT GCA GCC GCA TCG ACC GCG --- ACT AGA GGA GGT CTG GGC GGT CTG GTC --- TAC CAT TCA GAT GCC TCT CTG CCT TCC ACC TCT CTC TGG TGC --- --- CTG TTA TTC CTG --- CAT CTC TTC GTG TTG CTT --- TTT
+nomascus_leucogenys              --- --- --- --- --- --- --- --- --- --- --- --- AAC ACC ACT ACT ATG ATG CAT CCT CTC GAA GAG GAT GCT GTA CTG GTC TCT TGC TGC CGG TTA TTG TTT --- TAC AAA AAC AAC --- AAA AAA AAG AAC AAT ACC TGT ACT --- CGT AGA AGA AGA AGA AGA --- --- AGG TGG AGT AGT ATT --- ATA ACC ACT ATG ATT --- CAA CAA CAG CAG --- CAT CAT CCA CCA CCA CGC CCT CCC TCA TCT GTA CTC CTC TAT TTA --- --- CTG CTA --- CTG TCC CTG --- ATT CTT CTT TTT GAA GAA GAA GAA AAC CAT GAC GAG GAG GAG --- GAT GAA GAT GAT GCA GCA GCA ACG GCC GCG --- CCT GGA GGA GGC CTG AGG GGT ATA GTC --- TAC CAT TCA GAT TCC TCT CCG TCG TCC AGC TCT CTT TGG TGC --- --- TTA TTA TTC CCA --- CAC TTC TTC TCG TTG TTT --- TTT
+homo_sapiens                     --- --- --- --- --- --- --- --- --- --- --- --- AAC ACC ACT ACT ATG ATG CAT CCT CTC GAA GAG GAT GCT GTA CTT GTC TCT TGC TGC CGG TTA TTG TTT --- TAC AAA AAA AAC --- AAA AAA AAG AAC AAT ACC TGT ACT --- CGT AGA AGA AGA AGA AGA --- --- AGG TGG AGT AGT ATT --- ATA ATC ACT ATG ATT --- CAA CAA CAG CAG --- CAT CAT CCA CCA CCA CGC CCT CCT TCA CCT CTA CTC CTC TAT TTA --- --- CTG CTA --- CTG TCC CTG --- ATT CTT CTT TTT GAA GAA GAA GAA AAC CAT GAC GAG GAG GAG --- GAT GAC GAT GAT GCA GCA GCA ACG GCC GCG --- GCT GGA GGA GGC CTG GGG GGT ATA GTC --- TAC CAT TCA GAT TCC TCT CCG TCA TCC AGC TCT CTT TGG TGC --- --- TTA TTA TTC CCA --- CAC TTC TTC TTG TTG TTT --- TTT
+papio_anubis                     --- --- --- --- --- --- --- --- --- --- --- --- AAC CCC ACT ACT ATG ATG CAT CCT CTC GAT GAG GAT GCT GTA CTT GTC TCT TGC TGC CGG TTA TTG TTT --- TAC AAA AAA AAC --- AAA AAA AAG AAC AAT ACC TGT ACT --- CGT AGA AGA AGA AGA AGA --- --- AGG AGG AGT AGT AGT --- ATA ATC ACT ATG ATT --- CAA TAC CAG CAG --- CAT CAT CCA CCA CCA CCG CCT CCT TCA TCT CTA CTC TCT TAT TTA --- --- CTG CTG CTG CTG TCC CTG --- ATT CTT CTT TTT AGT GAA GAA GAA GAC CAT GAC GAG GAG GAG --- GAT GAT GAT GAT GCA GCA GCA ACG GCC GCG --- GCT GGA GGA GGC CTA GGG GGT CTC GTC --- TAT CAT GTA GAT TGT TCT TCG TCG TCT ATC TCT CTT TGG TGC --- --- TTA TTA TTC CCA --- CAC TTC TTC TTG TTG TTT --- TTT
+pan_troglodytes                  --- AAC ATT CCT CGA GGC GTG TAT TGG TTA TTT --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- AAA AAA AAA AAC AAG AAG AAG AAG AAT AAT ACC GAG ACT AGA AGA AGA AGA AGA AGA AGA --- AGG AGG TGG AGT AGT ATT ATA ATA ATC ATG ATG ATT CGA CAA CAA CAG CAG CAG CAT CAT CCA CCA CCA CGC CCT CCT CCA CCT CTA CTC CTC CTC CTC --- CTG --- CTA CTG CTG CTG CTG CTT CTT CTT CTT TTT GAA GAA GAA GAA AAC GAC GAC GAG GAG GAG GAT GAT GAT GAT GAT GCA GCA GCA GCC GCC GCG --- GCT GGA GGA GGA AGG GGG GGT ATA GTG --- TAC TAT TCA TCC TCC TCC CCG TCG TCC TCC TCT TGC TGG TGT --- TTA TTA TTA TTA TTA TTC TTC TTC TTG TTG TTG TTG --- TTT
+microcebus_murinus               TTT --- --- --- --- --- --- --- --- --- --- --- AAC ACC --- ACT ACG AAG CAT CCT CTC GAA GGG GAA --- ATA GCC --- --- TGC TTC --- TTA TTG TTT --- TAC AAA GAA AAC --- AAA GTC AAG AGC AAT ACA TGC --- --- CGT AGA TTC AGA GGA AGA --- --- AGG AGG ACT AGT GTT --- TCG ACC --- ACC ATT --- CAA CAG --- CAG --- CAT --- GAA CCA CCG --- --- CCA TCA TTC ATG CCG CTC TAT CTA --- --- GTG TTA --- CTG TCT CTG --- ACT CCC CTT CTT TTA --- GGA GAT AAT CAT GGT AAG --- GAG --- GAC --- GAC GCT ACA GGT GCC CTG GCT --- --- TTT GGA GGA --- CTG GGC GCG ATA GTC --- TAC CAC TCA GAT TCC CCT --- CCT TCC ACC TCT TGG TGG CTA --- --- --- CTC --- CTG --- --- TTC TTC CTG TTG CTC --- TTT
+
+
+
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    2    1    2    1    1    1    2    1
+    1    1    1    1    2    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    2    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    2    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    2
+
+CODONML (in paml version 4.8, March 2014)  resultadojoinedUTS2.fa.aligned.fa.best.nuc.fas.phy
+Model: several dN/dS ratios for branches for branches, 
+Codon frequency model: F3x4
+Site-class models:  PositiveSelection
+ns =  10  ls = 171
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   3   2   5   6   3   5 | Ser TCT   3   2   6   3   4   4 | Tyr TAT   2   1   2   1   1   1 | Cys TGT   1   1   1   1   1   1
+    TTC   4   4   2   3   2   3 |     TCC   3   4   3   3   2   3 |     TAC   1   1   2   2   2   2 |     TGC   1   1   3   3   3   3
+Leu TTA   5   4   4   4   3   4 |     TCA   1   2   2   2   1   2 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   4   3   4   3   2   2 |     TCG   2   0   1   1   2   2 |     TAG   0   0   0   0   0   0 | Trp TGG   1   1   2   2   1   2
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   6   5   4   5   6   4 | Pro CCT   4   4   2   3   4   3 | His CAT   2   2   3   5   4   5 | Arg CGT   0   0   2   1   1   1
+    CTC   4   4   4   3   4   3 |     CCC   0   0   0   0   1   1 |     CAC   0   0   1   1   1   1 |     CGC   0   1   0   1   0   1
+    CTA   1   2   1   2   0   1 |     CCA   3   3   5   4   1   4 | Gln CAA   3   2   2   2   2   2 |     CGA   0   0   0   0   1   0
+    CTG   8   4   5   4  10   5 |     CCG   1   1   0   1   0   1 |     CAG   3   2   2   2   3   2 |     CGG   0   1   0   1   0   1
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   2   2   3   4   3   4 | Thr ACT   2   1   3   4   5   4 | Asn AAT   2   2   1   1   1   1 | Ser AGT   3   2   1   2   2   2
+    ATC   1   1   1   0   1   0 |     ACC   1   1   3   3   3   3 |     AAC   2   3   5   5   3   6 |     AGC   1   0   0   1   1   1
+    ATA   2   3   2   2   1   2 |     ACA   0   0   1   0   0   0 | Lys AAA   5   3   5   5   4   4 | Arg AGA   8   5   5   5   5   5
+Met ATG   2   2   1   3   2   3 |     ACG   0   0   0   1   1   1 |     AAG   5   3   2   2   2   2 |     AGG   3   2   2   1   3   2
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   1   1   0   0   0 | Ala GCT   2   1   3   2   2   1 | Asp GAT   5   4   5   6   4   5 | Gly GGT   1   1   2   1   2   1
+    GTC   0   0   3   2   3   2 |     GCC   2   2   1   1   3   1 |     GAC   3   2   1   1   2   1 |     GGC   0   0   0   1   1   1
+    GTA   1   0   3   1   0   2 |     GCA   3   3   2   3   2   3 | Glu GAA   4   4   4   5   4   6 |     GGA   3   3   4   2   2   2
+    GTG   1   1   3   0   2   0 |     GCG   1   1   0   1   1   1 |     GAG   3   3   3   4   4   4 |     GGG   2   1   1   1   4   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Phe TTT   5   5   4   5 | Ser TCT   3   6   1   2 | Tyr TAT   1   2   2   1 | Cys TGT   1   2   1   0
+    TTC   3   3   3   5 |     TCC   3   1   5   2 |     TAC   2   2   1   2 |     TGC   3   3   1   2
+Leu TTA   4   4   6   3 |     TCA   3   1   1   2 | *** TAA   0   0   0   0 | *** TGA   0   0   0   0
+    TTG   3   3   4   2 |     TCG   0   2   1   1 |     TAG   0   0   0   0 | Trp TGG   2   1   3   2
+------------------------------------------------------------------------------------------------------
+Leu CTT   5   5   5   3 | Pro CCT   4   3   4   3 | His CAT   5   5   2   3 | Arg CGT   1   1   0   1
+    CTC   3   3   4   4 |     CCC   0   1   0   1 |     CAC   1   1   0   1 |     CGC   1   0   1   0
+    CTA   2   2   2   2 |     CCA   4   4   4   2 | Gln CAA   2   1   2   1 |     CGA   0   0   2   0
+    CTG   4   5   5   6 |     CCG   1   1   1   2 |     CAG   2   2   3   2 |     CGG   1   1   0   0
+------------------------------------------------------------------------------------------------------
+Ile ATT   4   3   4   2 | Thr ACT   4   4   1   3 | Asn AAT   1   1   2   2 | Ser AGT   2   4   2   1
+    ATC   1   2   1   0 |     ACC   2   1   1   4 |     AAC   5   4   4   3 |     AGC   1   0   0   1
+    ATA   2   1   3   2 |     ACA   0   0   0   2 | Lys AAA   5   5   4   3 | Arg AGA   5   5   8   3
+Met ATG   3   3   2   1 |     ACG   1   1   0   1 |     AAG   2   2   5   4 |     AGG   1   2   3   2
+------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   1 | Ala GCT   2   2   1   2 | Asp GAT   5   7   5   2 | Gly GGT   1   1   1   2
+    GTC   2   2   0   2 |     GCC   1   1   2   2 |     GAC   2   2   2   2 |     GGC   1   1   1   1
+    GTA   1   2   0   0 |     GCA   3   3   3   0 | Glu GAA   5   3   4   4 |     GGA   2   2   3   4
+    GTG   0   0   2   1 |     GCG   1   1   1   1 |     GAG   4   4   4   1 |     GGG   1   1   1   1
+------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: macaca_mulatta 
+position  1:    T:0.22794    C:0.25735    A:0.28676    G:0.22794
+position  2:    T:0.32353    C:0.20588    A:0.29412    G:0.17647
+position  3:    T:0.27941    C:0.16912    A:0.28676    G:0.26471
+Average         T:0.27696    C:0.21078    A:0.28922    G:0.22304
+
+#2: gorilla_gorilla
+position  1:    T:0.22807    C:0.27193    A:0.26316    G:0.23684
+position  2:    T:0.33333    C:0.21930    A:0.28070    G:0.16667
+position  3:    T:0.27193    C:0.21053    A:0.29825    G:0.21930
+Average         T:0.27778    C:0.23392    A:0.28070    G:0.20760
+
+#3: callithrix_jacchus
+position  1:    T:0.26619    C:0.22302    A:0.25180    G:0.25899
+position  2:    T:0.33094    C:0.23022    A:0.27338    G:0.16547
+position  3:    T:0.31655    C:0.20863    A:0.28777    G:0.18705
+Average         T:0.30456    C:0.22062    A:0.27098    G:0.20384
+
+#4: pongo_abelii   
+position  1:    T:0.24460    C:0.25180    A:0.28058    G:0.22302
+position  2:    T:0.30216    C:0.23022    A:0.30216    G:0.16547
+position  3:    T:0.32374    C:0.21583    A:0.26619    G:0.19424
+Average         T:0.29017    C:0.23261    A:0.28297    G:0.19424
+
+#5: carlito_syrichta
+position  1:    T:0.19565    C:0.27536    A:0.26812    G:0.26087
+position  2:    T:0.30435    C:0.23188    A:0.26812    G:0.19565
+position  3:    T:0.31159    C:0.23188    A:0.18841    G:0.26812
+Average         T:0.27053    C:0.24638    A:0.24155    G:0.24155
+
+#6: nomascus_leucogenys
+position  1:    T:0.24460    C:0.25180    A:0.28777    G:0.21583
+position  2:    T:0.28777    C:0.24460    A:0.30216    G:0.16547
+position  3:    T:0.30216    C:0.23022    A:0.26619    G:0.20144
+Average         T:0.27818    C:0.24221    A:0.28537    G:0.19424
+
+#7: homo_sapiens   
+position  1:    T:0.23741    C:0.25899    A:0.28058    G:0.22302
+position  2:    T:0.30216    C:0.23022    A:0.30216    G:0.16547
+position  3:    T:0.31655    C:0.22302    A:0.27338    G:0.18705
+Average         T:0.28537    C:0.23741    A:0.28537    G:0.19185
+
+#8: papio_anubis   
+position  1:    T:0.25000    C:0.25000    A:0.27143    G:0.22857
+position  2:    T:0.30714    C:0.22857    A:0.29286    G:0.17143
+position  3:    T:0.36429    C:0.19286    A:0.23571    G:0.20714
+Average         T:0.30714    C:0.22381    A:0.26667    G:0.20238
+
+#9: pan_troglodytes
+position  1:    T:0.23913    C:0.25362    A:0.28986    G:0.21739
+position  2:    T:0.32609    C:0.18841    A:0.28986    G:0.19565
+position  3:    T:0.25362    C:0.18841    A:0.30435    G:0.25362
+Average         T:0.27295    C:0.21014    A:0.29469    G:0.22222
+
+#10: microcebus_murinus
+position  1:    T:0.24167    C:0.25833    A:0.28333    G:0.21667
+position  2:    T:0.32500    C:0.25000    A:0.25833    G:0.16667
+position  3:    T:0.27500    C:0.26667    A:0.23333    G:0.22500
+Average         T:0.28056    C:0.25833    A:0.25833    G:0.20278
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      43 | Ser S TCT      34 | Tyr Y TAT      14 | Cys C TGT      10
+      TTC      32 |       TCC      29 |       TAC      17 |       TGC      23
+Leu L TTA      41 |       TCA      17 | *** * TAA       0 | *** * TGA       0
+      TTG      30 |       TCG      12 |       TAG       0 | Trp W TGG      17
+------------------------------------------------------------------------------
+Leu L CTT      48 | Pro P CCT      34 | His H CAT      36 | Arg R CGT       8
+      CTC      36 |       CCC       4 |       CAC       7 |       CGC       5
+      CTA      15 |       CCA      34 | Gln Q CAA      19 |       CGA       3
+      CTG      56 |       CCG       9 |       CAG      23 |       CGG       5
+------------------------------------------------------------------------------
+Ile I ATT      31 | Thr T ACT      31 | Asn N AAT      14 | Ser S AGT      21
+      ATC       8 |       ACC      22 |       AAC      40 |       AGC       6
+      ATA      20 |       ACA       3 | Lys K AAA      43 | Arg R AGA      54
+Met M ATG      22 |       ACG       6 |       AAG      29 |       AGG      21
+------------------------------------------------------------------------------
+Val V GTT       3 | Ala A GCT      18 | Asp D GAT      48 | Gly G GGT      13
+      GTC      16 |       GCC      16 |       GAC      18 |       GGC       7
+      GTA      10 |       GCA      25 | Glu E GAA      43 |       GGA      27
+      GTG      10 |       GCG       9 |       GAG      34 |       GGG      13
+------------------------------------------------------------------------------
+
+(Ambiguity data are not used in the counts.)
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.23770    C:0.25484    A:0.27645    G:0.23100
+position  2:    T:0.31371    C:0.22578    A:0.28689    G:0.17362
+position  3:    T:0.30253    C:0.21311    A:0.26379    G:0.22057
+Average         T:0.28465    C:0.23125    A:0.27571    G:0.20840
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.02359638  0.01662208  0.02057419  0.01720327
+  0.01698267  0.01196316  0.01480755  0.01238145
+  0.02157864  0.01520072  0.00000000  0.00000000
+  0.01305928  0.00919939  0.00000000  0.00952105
+  0.02529769  0.01782054  0.02205759  0.01844364
+  0.01820713  0.01282571  0.01587518  0.01327416
+  0.02313447  0.01629669  0.02017143  0.01686651
+  0.01400086  0.00986267  0.01220765  0.01020752
+  0.02744282  0.01933164  0.02392797  0.02000757
+  0.01975101  0.01391327  0.01722132  0.01439975
+  0.02509616  0.01767858  0.02188187  0.01829671
+  0.01518807  0.01069898  0.01324280  0.01107307
+  0.02293065  0.01615312  0.01999372  0.01671792
+  0.01650354  0.01162564  0.01438978  0.01203213
+  0.02096984  0.01477186  0.01828405  0.01528836
+  0.01269084  0.00893985  0.01106541  0.00925243
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Pairwise deletion)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+macaca_mulatta      
+gorilla_gorilla      0.5694 (0.0436 0.0766)
+callithrix_jacchus   0.6275 (0.2455 0.3912) 0.6127 (0.2164 0.3531)
+pongo_abelii         0.5077 (0.1746 0.3439) 0.4176 (0.1227 0.2939) 0.7098 (0.0937 0.1320)
+carlito_syrichta     0.3807 (0.2672 0.7019) 0.3349 (0.2480 0.7406) 0.5638 (0.1967 0.3489) 0.3933 (0.1498 0.3810)
+nomascus_leucogenys  0.5484 (0.1988 0.3625) 0.4696 (0.1468 0.3126) 0.7792 (0.1119 0.1436) 1.0480 (0.0221 0.0211) 0.4525 (0.1679 0.3710)
+homo_sapiens         0.4202 (0.1607 0.3824) 0.3717 (0.1089 0.2929) 0.7392 (0.0973 0.1317) 0.4446 (0.0094 0.0211) 0.4018 (0.1460 0.3634) 0.7969 (0.0254 0.0318)
+papio_anubis         0.5526 (0.1871 0.3385) 0.4204 (0.1905 0.4532) 0.5476 (0.1052 0.1920) 0.7510 (0.0679 0.0904) 0.4277 (0.1909 0.4464) 0.7486 (0.0852 0.1138) 0.5659 (0.0645 0.1140)
+pan_troglodytes      0.5836 (0.0439 0.0752) 0.1529 (0.0077 0.0505) 0.6646 (0.2415 0.3634) 0.5607 (0.1407 0.2509) 0.3680 (0.2614 0.7103) 0.6113 (0.1639 0.2681) 0.4450 (0.1273 0.2861) 0.5197 (0.2059 0.3962)
+microcebus_murinus   0.3448 (0.3841 1.1140) 0.3211 (0.3414 1.0633) 0.4428 (0.2932 0.6621) 0.4713 (0.2395 0.5080) 0.4740 (0.2566 0.5413) 0.5502 (0.2655 0.4825) 0.5037 (0.2550 0.5062) 0.4677 (0.3125 0.6682) 0.3866 (0.3663 0.9473)
+
+
+TREE #  1:  ((((((2, (7, 9)), 4), 6), (1, 8)), 3), 5, 10);   MP score: -1
+lnL(ntime: 17  np: 22):  -2135.057083      +0.000000
+  11..12   12..13   13..14   14..15   15..16   16..2    16..17   17..7    17..9    15..4    14..6    13..18   18..1    18..8    12..3    11..5    11..10 
+ 0.219752 0.057319 0.035302 0.000004 0.019453 0.457211 0.000004 0.008494 0.470445 0.007206 0.058992 0.041145 0.528432 0.135398 0.217099 0.311745 0.770299 2.627716 0.000000 0.000000 0.138549 1.000000
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length =   3.33830
+
+((((((2: 0.457211, (7: 0.008494, 9: 0.470445): 0.000004): 0.019453, 4: 0.007206): 0.000004, 6: 0.058992): 0.035302, (1: 0.528432, 8: 0.135398): 0.041145): 0.057319, 3: 0.217099): 0.219752, 5: 0.311745, 10: 0.770299);
+
+((((((gorilla_gorilla: 0.457211, (homo_sapiens: 0.008494, pan_troglodytes: 0.470445): 0.000004): 0.019453, pongo_abelii: 0.007206): 0.000004, nomascus_leucogenys: 0.058992): 0.035302, (macaca_mulatta: 0.528432, papio_anubis: 0.135398): 0.041145): 0.057319, callithrix_jacchus: 0.217099): 0.219752, carlito_syrichta: 0.311745, microcebus_murinus: 0.770299);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  2.62772
+
+
+dN/dS (w) for site classes (K=4)
+
+site class             0        1       2a       2b
+proportion       0.00000  0.00000  0.58202  0.41798
+background w     0.13855  1.00000  0.13855  1.00000
+foreground w     0.13855  1.00000  1.00000  1.00000
+
+
+Bayes Empirical Bayes (BEB) analysis (Yang, Wong & Nielsen 2005. Mol. Biol. Evol. 22:1107-1118)
+Positive sites for foreground lineages Prob(w>1):
+
+
+The grid (see ternary graph for p0-p1)
+
+w0:   0.050  0.150  0.250  0.350  0.450  0.550  0.650  0.750  0.850  0.950
+w2:   1.500  2.500  3.500  4.500  5.500  6.500  7.500  8.500  9.500 10.500
+
+
+Posterior on the grid
+
+w0:   0.017  0.959  0.024  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+w2:   0.191  0.153  0.127  0.107  0.092  0.081  0.072  0.065  0.059  0.054
+
+Posterior for p0-p1 (see the ternary graph)
+
+ 0.000
+ 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001 0.008
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.002 0.003 0.027 0.035 0.118
+ 0.000 0.000 0.000 0.000 0.001 0.001 0.014 0.017 0.064 0.077 0.096 0.132 0.082
+ 0.000 0.000 0.000 0.000 0.009 0.010 0.041 0.047 0.031 0.048 0.012 0.025 0.004 0.011 0.001
+ 0.000 0.000 0.006 0.006 0.019 0.027 0.003 0.008 0.000 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.004 0.005 0.000 0.002 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+
+sum of density on p0-p1 =   1.000000
+
+Time used:  0:50

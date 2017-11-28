@@ -2,7 +2,7 @@
 get_llk_line_<- function(path) {
   raw_h0 <- readLines(path)
   llk_line_raw <- raw_h0[grepl("^lnL", raw_h0)]
-  num_params <- as.numeric(gsub(".*np: (\\d+).*","\\1", llk_line_raw))
+  num_params <- as.numeric(gsub(".*np:\\s*(\\d+).*","\\1", llk_line_raw))
   llk <- as.numeric(gsub(".*\\):\\s*(\\S+)s*.*","\\1", llk_line_raw))
 
   list(num_params=num_params, llk=llk)  

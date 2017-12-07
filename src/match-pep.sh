@@ -21,12 +21,14 @@ cat ${ENSEMBL_PEP} ${UNIPROT} > ${COMBINED}
 muscle -in ${COMBINED} 2> /dev/null > ${COMBINED_ALIGNED}
 
 # Produce a matching table
-Rscript src/matcher.R ${GAP_PRESERVING_NUC} ${COMBINED_ALIGNED}
+Rscript src/matcher.R ${GAP_PRESERVING_NUC} ${COMBINED_ALIGNED} > ${GENE}.matching.table
+
+Rscript src/align_summary.R ${COMBINED_ALIGNED} > ${GENE}.matching.summary
 
 # Clean up
-rm -rf ${UNIPROT:?}
-rm -rf ${ENSEMBL_PEP:?}
-rm -rf ${COMBINED:?}
-rm -rf ${COMBINED_ALIGNED:?}
-rm -rf ${GAP_PRESERVING_NUC:?}
+#rm -rf ${UNIPROT:?}
+#rm -rf ${ENSEMBL_PEP:?}
+#rm -rf ${COMBINED:?}
+#rm -rf ${COMBINED_ALIGNED:?}
+#rm -rf ${GAP_PRESERVING_NUC:?}
 

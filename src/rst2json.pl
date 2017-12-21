@@ -102,28 +102,38 @@ while (<>) {
 	  	if($state_NEB_TABLE == 1) {
 		  	$data{"NEB"}{"aa"} = $data{"NEB"}{"aa"}.$line."\n";
 
+
+		  	# Trim white space
+		  	$line =~ s/^\s*//;
+		  	$line =~ s/\s*$//;
+
 		  	my @fields=split /[ ()]+/, $line ;
 		  	my %record;
 
-		  	$record{"pos"}=$fields[1];
-		  	$record{"aa"}=$fields[2];
+		  	$record{"pos"}=$fields[0];
+		  	$record{"aa"}=$fields[1];
 
 		  	for( my $i = 0; $i < $data{"NEB"}{"number_of_classes"}; $i++) {
-			  	$record{"prob".($i+1)}=$fields[3+$i];
+			  	$record{"prob".($i+1)}=$fields[2+$i];
 		  	}
 
-		  	$record{"class"}=$fields[3+$data{"NEB"}{"number_of_classes"}];
-		  	$record{"w_bar"}=$fields[4+$data{"NEB"}{"number_of_classes"}];
+		  	$record{"class"}=$fields[2+$data{"NEB"}{"number_of_classes"}];
+		  	$record{"w_bar"}=$fields[3+$data{"NEB"}{"number_of_classes"}];
 		  	push(@{$data{"NEB"}{"parsed"}}, \%record);
 	  	} else {
 
 	  		my %record;
+
+		  	# Trim white space
+		  	$line =~ s/^\s*//;
+		  	$line =~ s/\s*$//;
+
 		  	my @fields=split /\s+/, $line ;
 
-		  	$record{"pos"} = $fields[1];
-		  	$record{"aa"} = $fields[2];
-		  	$record{"prob_w_gt_1"} = $fields[3];
-		  	$record{"mean_w"} = $fields[4];
+		  	$record{"pos"} = $fields[0];
+		  	$record{"aa"} = $fields[1];
+		  	$record{"prob_w_gt_1"} = $fields[2];
+		  	$record{"mean_w"} = $fields[3];
 
 		  	push(@{$data{"NEB"}{"POST_SELECTED"}}, \%record);
 	  		# print Dumper 
@@ -158,29 +168,54 @@ while (<>) {
 	    if($state_BEB_TABLE == 1 )	{
 		  	$data{"BEB"}{"aa"} = $data{"BEB"}{"aa"}.$line."\n";
 
+		  	# Trim white space
+		  	$line =~ s/^\s*//;
+		  	$line =~ s/\s*$//;
+
 		  	my @fields=split /[ \(\)]+/, $line ;
-		  	if($#fields != $data{"BEB"}{"number_of_classes"} + 6) {
+		  	if($#fields != $data{"BEB"}{"number_of_classes"} + 5) { # 5 is extraneous stuff such as below
+                # 881    <----
+                # T      <-----
+                # 0.80378
+                # 0.10239
+                # 0.04492
+                # 0.02253
+                # 0.01196
+                # 0.00650
+                # 0.00354
+                # 0.00188
+                # 0.00094
+                # 0.00043
+                # 0.00112
+                # 1       <---
+                # 0.090  <---
+                # +-      <---
+                # 0.111   <----
 		  		next;
 		  	}
 		  	my %record;
-		  	$record{"pos"}=$fields[1];
+		  	$record{"pos"}=$fields[0];
 
-		  	$record{"aa"}=$fields[2];
+		  	$record{"aa"}=$fields[1];
 		  	for( my $i = 0; $i < $data{"BEB"}{"number_of_classes"}; $i++) {
-			  	$record{"prob".($i+1)}=$fields[3+$i];
+			  	$record{"prob".($i+1)}=$fields[2+$i];
 		  	}
-		  	$record{"class"}=$fields[3+$data{"BEB"}{"number_of_classes"}];
-		  	$record{"w_bar"}=$fields[4+$data{"BEB"}{"number_of_classes"}];
-		  	$record{"sd"}=$fields[6+$data{"BEB"}{"number_of_classes"}];
+		  	$record{"class"}=$fields[2+$data{"BEB"}{"number_of_classes"}];
+		  	$record{"w_bar"}=$fields[3+$data{"BEB"}{"number_of_classes"}];
+		  	$record{"sd"}=$fields[5+$data{"BEB"}{"number_of_classes"}];
 		  	push(@{$data{"BEB"}{"parsed"}}, \%record);
 	    } else {
 	  		my %record;
+
+		  	# Trim white space
+		  	$line =~ s/^\s*//;
+		  	$line =~ s/\s*$//;
 		  	my @fields=split /\s+/, $line ;
 
-		  	$record{"pos"} = $fields[1];
-		  	$record{"aa"} = $fields[2];
-		  	$record{"prob_w_gt_1"} = $fields[3];
-		  	$record{"mean_w"} = $fields[4];
+		  	$record{"pos"} = $fields[0];
+		  	$record{"aa"} = $fields[1];
+		  	$record{"prob_w_gt_1"} = $fields[2];
+		  	$record{"mean_w"} = $fields[3];
 
 		  	push(@{$data{"BEB"}{"POST_SELECTED"}}, \%record);
 	    }

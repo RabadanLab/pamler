@@ -3,10 +3,10 @@ from Bio import SeqIO
 import re
 import sys
 
-fasta_file = sys.stdin
+fastafile = sys.argv[1]
 names = []
 sequences = []
-
+fasta_file= open(fastafile,'r')
 for line in fasta_file:
 	organism = re.match('>[a-z]+',line)
 	if organism:

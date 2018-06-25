@@ -10,7 +10,7 @@ Contributors: Kernyu and Albert
 
 Make the following pipeline
 
-![](assets/pipeline-20170725.png)
+![](assets/pipeline-20180505.png)
 
 # How to use it
 

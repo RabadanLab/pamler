@@ -4,7 +4,7 @@ PAML on steroids, basically.
 
 With this pipeline, we want to compute site-specific dn/ds for ~4000 genes that have interfacial residues interacting with virus. 
 
-Contributors: Kernyu and Albert
+Contributors: Kernyu, Juan and Albert
 
 # Objective
 

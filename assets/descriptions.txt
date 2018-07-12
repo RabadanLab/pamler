@@ -1,12 +1,6 @@
 descriptions.txt : this description file
-notes : some notes
-CCR5.fasta : example fasta file
 H0neutrality.sh : codeml ctrl file for H0 model
 HAselection.sh : codeml ctrl file for HA model
-Selected_hyphy_out_of_2448_genes.txt :  genes selected from 2448 genes tested. received from Juan on 2017/09/25
-Selected_hyphy_out_of_2448_genes.gene.txt : processed version of Selected_hyphy_out_of_2448_genes.txt
-gene_list_4463.txt : input gene list from gorka data
 pipeline-20170725.png : pipeline
 primates_input_JA.tre : species tree provided by Juan
 template.primate.tree : species tree from ENSEMBL
-test-rst-file.txt : rst test-file 

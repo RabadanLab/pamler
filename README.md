@@ -1,6 +1,6 @@
 # PAMLer
 
-With this repository, we want to study the selective pressure of ~15000 human genes. Specifically, detect those genes under positive selection in humans compared to other primates, and estimate their dN/dS.
+With this repository, we want to study the selective pressure of ~14000 human genes. Specifically, detect those genes under positive selection in humans compared to other primates, and estimate their dN/dS.
 
 Contributors: Kernyu, Juan and Albert
 

@@ -1,12 +1,12 @@
-./primate_dataset:
-  /template.primate.tree: primate's tree, to be prunned.
-  /sequences:alignments of original fasta files, as downloaded from Ensembl
-  /result: processed output files, obtained from codeml
+./primate_dataset/:
+  ./template.primate.tree: primate's tree, to be prunned.
+  ./sequences/:alignments of original fasta files, as downloaded from Ensembl
+  ./result/: processed output files, obtained from codeml
  
-./viral_sets:
-  /HIV: HIV amino acid datasets
-  /HCV: HCV amino acid datasets for subtypes 1a and 1b.
-  /Influenza: amino acid datasets for H5N1 and H7N9
-  /result: entropy values for each alignment.
+./viral_sets/:
+  ./HIV/: HIV amino acid datasets
+  ./HCV/: HCV amino acid datasets for subtypes 1a and 1b.
+  ./Influenza/: amino acid datasets for H5N1 and H7N9
+  ./result/: entropy values for each alignment.
   
- ./misc: to be removed
+ ./misc/: to be removed
